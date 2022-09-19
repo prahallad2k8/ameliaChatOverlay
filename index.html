@@ -257,7 +257,7 @@
             console.log("nav_loan_organization")
         }
 		else if (e.data.action === "nav_checking") {
-            loadiFrame('https://www.wesbanco.com/mortgage/mortgage-lending/fixed-rate-mortgage/');
+            loadiFrame('https://www.wesbanco.com/investment/financial-consulting/our-services//');
             console.log("nav_checking")
         }
 		
@@ -271,7 +271,7 @@
          */
 
         var receiverElem = document.getElementById('receiver').contentWindow;
-        receiverElem.postMessage(data, "https://us10.dev.amelia.com/Amelia/ui/mortgage//?domainCode=bankingmortgage");
+        receiverElem.postMessage(data, "https://us10.dev.amelia.com/Amelia/ui/mortgage//?domainCode=wealthmanagement");
     }
 
     window.addEventListener('message', receiveMessage);

@@ -273,7 +273,7 @@
          */
 
         var receiverElem = document.getElementById('receiver').contentWindow;
-        receiverElem.postMessage(data, "https://us10.dev.amelia.com/Amelia/ui/mortgage/chat?domainCode=bankingmortgage");
+        receiverElem.postMessage(data, "https://us10.dev.amelia.com/Amelia/ui/mortgage//?domainCode=bankingmortgage");
     }
 
     window.addEventListener('message', receiveMessage);

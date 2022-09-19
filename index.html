@@ -251,8 +251,6 @@
             // Check to make sure that this message came from the correct domain.
 
         var url = e.data.url;
-        if (e.origin !== 'https://us10.dev.amelia.com')
-            return;
 
         if (e.data.action === "nav_loan_organization") {
             loadiFrame('https://www.wesbanco.com/mortgage/mortgage-lending/fixed-rate-mortgage/');

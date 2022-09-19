@@ -271,7 +271,7 @@
          */
 
         var receiverElem = document.getElementById('receiver').contentWindow;
-        receiverElem.postMessage(data, "https://us10.dev.amelia.com/Amelia/ui/mortgage//?domainCode=wealthmanagement");
+        receiverElem.postMessage(data, "https://us10.dev.amelia.com/Amelia/ui/mortgage/chat?domainCode=wealthmanagement");
     }
 
     window.addEventListener('message', receiveMessage);

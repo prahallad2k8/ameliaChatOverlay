@@ -251,34 +251,18 @@
             // Check to make sure that this message came from the correct domain.
 
         var url = e.data.url;
-        if (e.origin !== 'https://vertiv.demo.amelia.com')
+        if (e.origin !== 'https://www.wesbanco.com/')
             return;
 
-        if (e.data.action === "nav_pst5") {
-            loadiFrame('https://www.vertiv.com/en-us/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-pst5-ups/');
-            console.log("nav_pst5")
+        if (e.data.action === "nav_loan_organization") {
+            loadiFrame('https://www.wesbanco.com/mortgage/mortgage-lending/fixed-rate-mortgage/');
+            console.log("nav_loan_organization")
         }
-		else if (e.data.action === "nav_gxt5") {
-            loadiFrame('https://www.vertiv.com/en-us/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-gxt5-ups-500-3000va-120v-ups');
-            console.log("nav_gxt5")
+		else if (e.data.action === "nav_checking") {
+            loadiFrame('https://www.wesbanco.com/mortgage/mortgage-lending/fixed-rate-mortgage/');
+            console.log("nav_checking")
         }
-		else if (e.data.action === "nav_where_to_buy") {
-            loadiFrame('https://partners.vertiv.com/English/directory?AccountCountry=USA');
-            console.log("nav_where_to_buy")
-        }
-		else if (e.data.action === "nav_lithium") {
-		loadiFrame('https://www.vertiv.com/en-us/products-catalog/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-psi5-lithium-ion-ups/');
-		console.log("nav_lithium")
-		}
-		else if (e.data.action === "nav_exl") {
-		loadiFrame('https://www.vertiv.com/en-us/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1/');
-		console.log("nav_exl")
-		}
-		else if (e.data.action === "nav_trienergy") {
-		loadiFrame('https://www.vertiv.com/en-us/products-catalog/critical-power/uninterruptible-power-supplies-ups/liebert-trinergy-cube-ups/');
-            console.log("nav_trienergy")
-        }
-        console.log(e.data.action)
+		
     }
 
     function sendMessage(data) {
@@ -289,7 +273,7 @@
          */
 
         var receiverElem = document.getElementById('receiver').contentWindow;
-        receiverElem.postMessage(data, "https://vertiv.demo.amelia.com/Amelia/ui/vertiv//?domainCode=vertiv");
+        receiverElem.postMessage(data, "https://us10.dev.amelia.com/Amelia/ui/mortgage/chat?domainCode=bankingmortgage");
     }
 
     window.addEventListener('message', receiveMessage);

@@ -252,14 +252,14 @@
 
         var url = e.data.url;
 
-        if (e.data.action === "nav_loan_organization") {
-            loadiFrame('https://www.wesbanco.com/mortgage/mortgage-lending/fixed-rate-mortgage/');
-            console.log("nav_loan_organization")
+        if (e.data.action === "nav_checking") {
+            loadiFrame('https://www.wesbanco.com/investment/financial-consulting/our-services/');
+            console.log("nav_checking")
         }
-		else if (e.data.action === "nav_checking") {
+		else if (e.data.action === "nav_loan_organization") {
             //loadiFrame('https://us10.dev.amelia.com/Amelia/ui/mortgage/chat?domainCode=bankingmortgage');
 			window.location.href = "https://geethamrutha.github.io/banking_mortgage/";
-            console.log("nav_checking")
+            console.log("nav_loan_organization")
         }
 		
     }

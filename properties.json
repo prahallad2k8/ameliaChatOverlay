@@ -1,5 +1,5 @@
 {
-  "ameliaUrl": "https://us10.dev.amelia.com/Amelia/ui/mortgage/chat?domainCode=wealthmanagement",
-  "chatUrl": "https://us10.dev.amelia.com/Amelia/ui/rate/",
-  "clientUrl": "https://www.wesbanco.com/"
+  "ameliaUrl": "https://us.demo.amelia.com/Amelia/ui/bcbsma/chat?domainCode=bcbsma",
+  "chatUrl": "https://us.demo.amelia.com/Amelia/ui/rate/",
+  "clientUrl": "https://www.amazon.com/"
 }

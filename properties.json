@@ -1,5 +1,5 @@
 {
-  "ameliaUrl": "https://us.demo.amelia.com/Amelia/ui/bcbsma/chat?domainCode=bcbsma",
-  "chatUrl": "https://us.demo.amelia.com/Amelia/ui/rate/",
-  "clientUrl": "https://www.amazon.com/"
+  "ameliaUrl": "https://blr-amelia-demo1-v3.ipsoft.com/Amelia/ui/testing5183/1/chat?domainCode=training2",
+  "chatUrl": "https://blr-amelia-demo1-v3.ipsoft.com/Amelia/",
+  "clientUrl": "https://www.amazon.in/"
 }
